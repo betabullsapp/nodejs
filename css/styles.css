@@ -8,8 +8,14 @@ body{
 
 #logo{
 	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-bottom: 8px;
 }
+#logo img{
+	position:relative;
+	top:-14px;
+	left:3%;
+}
+
 #forDemo{
 	padding: 20px;
 }
@@ -38,7 +44,7 @@ body{
 	max-height: 100px;
 }
 .courseDay{
-	width:55px;
+	width:45px;
 	text-align: center;
 	font-weight: 900;
 	color:#FFFFFF;
