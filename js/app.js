@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-    $('#navbar').scrollspy();
-    $('.nav a').on('click', function(){
+    
+    /*$('.nav a').on('click', function(){
     $(".btn-navbar").click(); 
     $(".navbar-toggle").click();
-    });
+    });*/
 
      $(document).scroll(function(e){
     var scrollTop = $(document).scrollTop();
