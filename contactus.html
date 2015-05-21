@@ -14,19 +14,12 @@
     <link href='http://fonts.googleapis.com/css?family=Lobster+Two:400,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <style type="text/css">
-    
-
-
-    </style>
-
 
   </head>
   <body data-spy="scroll" data-target=".navbar">
 
     <div class="container">
-
-    <div id="logo">
+      <div id="logo">
 
           
         <div class="row">
@@ -72,47 +65,51 @@
               
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                   <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="#aboutUs">About Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#aboutUs">About Us</a></li>
                     <li><a href="courses.html">Courses</a></li>
-                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li class="active"><a href="contactus.html">Contact Us</a></li>
                     <li><a href="workwithus.html">Work With Us</a></li>
                   </ul>
                 </div>
            
   </nav>
    </div>
+            <div id="contactUs" class="headed">
+            <div class="container"><h1>Contact Us</h1><hr></div>
+            
+            <div class="container">
+              <h3>Dear Sir/ Madam!!, please feel free to reach us on below email or mobile number related to any queries or Online/Offline Course registrations.</h3>
+              <address>
+                <strong>Learning Academy</strong><br>
+                Shilpa Park Road<br>
+                Kondapur, Hyderabad 520063<br>
+                <abbr title="Phone">P:</abbr> +91 (9123) 456-7890
+              </address>
 
-   <div class="container">
-
-    <div id="home" class="jumbotron headed">
-      
-        <h1>Learn New Technologies</h1>
-        <p class="captioned">Learn IT by doing</p>
-        <h3>The technologies we teaching is a mission of providing quality technical education !!</h3>
-        <h3>We provide both "Instructor Led Live Online Courses" &amp; "Offline Classroom Courses in Hyderabad" !!</h3>
-
-        <p>
-          <a href="courses.html" class="btn btn-success btn-lg" role="button">Browse Crouses</a>
-        </p>
-
-
-      </div>
-
-    </div>
-    <div id="aboutUs" class="container">
-      <h3>About Us</h3>
-      <hr>
-      <p class="aboutMission">Thanks!! for your intrest in knowing about our Academy.</p>
-      <p class="aboutMission">We were started in the year 2014 @ Hyderabad, by a team of real time IT Professionals. The company experts in providing IT industry current cutting edge technologies in the form of <q>Instructor LED Online Courses</q> and <q>Offline Classroom courses</q>. Currently we mainy focusing on courses like <q>Apache Hadoop Developer</q>, <q>Apache Hadoop Admin</q> and <q>MongoDB Database Development &amp; Administration</q>, <q>Cassandra DB</q>, <q>Couch DB</q>, <q>Redis</q> <q>Node.JS</q>, <q>Android App Development</q>, <q>IOS App Development</q>, <q>Selenium Testing</q>.... courses.</p>
-      <h3>Our Mission</h3>
-      <hr>
-      <p class="aboutMission">Providing high quality technical education for all.</p>
+              <address>
+                <strong>learningacademy &copy; 2015</strong><br>
+                <a href="mailto:#">learningacademy@example.com</a>
+              </address>
+            </div>
 
 
+          </div>
+          <div id="maps">
 
-    </div>
-            <footer id="footerStyle">
+       <div class="container">
+
+        <h2>Find Us</h2>
+        <hr>
+     
+
+        <div id="map-container" class="col-md-8"></div>
+        </div>
+        </div>
+
+
+
+          <footer id="footerStyle">
               <div class="container">
            
             <div class="row">
@@ -156,14 +153,14 @@
 
           </footer>
 
-
   
     <script src="js/jquery-2.1.4.js"></script>
   
     <script src="js/bootstrap.min.js"></script>
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
     <script type="text/javascript" src="js/app.js"></script>
-
-
+    <script type="text/javascript" src="js/appMap.js"></script>
 
   </body>
 </html>
