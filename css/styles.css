@@ -23,7 +23,9 @@ body {
   display: table-row;
   height: 1px;
 }
- 
+#aboutUsHeading img{
+	width:1135px;
+}
 #contactUs { height: 100%; }
 
 
